@@ -1,4 +1,4 @@
-import logoImg from '../../assets/logo.svg'
+import richMoney from '../../assets/rich-money.png'
 import { Container, Content } from './styles'
 
 interface HeaderProps {
@@ -10,7 +10,9 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps){
     return(
         <Container>
             <Content>
-            <img src={logoImg} alt="dtmoney" />
+            <div className="logoContent">
+                <img src={richMoney} alt="dtmoney" /><span>Rich Money</span>
+            </div>
             <button type="button" onClick={onOpenNewTransactionModal}>
                 Nova transação
             </button>

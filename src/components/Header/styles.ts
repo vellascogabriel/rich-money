@@ -13,6 +13,22 @@ export const Content = styled.div`
     align-items:center;
     justify-content: space-between;
 
+    .logoContent{
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        font-size:30px;
+        margin-left:10px;
+        font-weight:500;
+        color:#fff;
+
+        img{
+            max-height:60px;
+            margin-right:10px
+        }
+    }
+
     button{
         font-size: 1rem;
         color: #fff;
