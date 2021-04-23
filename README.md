@@ -1,3 +1,11 @@
-![Screenshot](./principal.png)
+# Rich Money - Estudo de Typescript, ContextAPI e MirageJS
 
-![Screenshot](./modal.png)
+### Aplicação de gestão de despesas usando ReactJS e Typescript
+
+
+
+ ![Screenshot](./principal.png)
+
+<p align="center">
+  <img src="./modal.png" alt="modal"/>
+</p>
