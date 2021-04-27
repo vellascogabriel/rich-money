@@ -25,7 +25,7 @@ export const Content = styled.div`
 
         img{
             max-height:60px;
-            margin-right:10px
+            margin-right:10px;
         }
     }
 
